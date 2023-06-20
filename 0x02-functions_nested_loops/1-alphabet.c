@@ -1,1 +1,19 @@
-VimCrypt~03!É¤ãWó«Û‹cq©›™C+2îSå2ä¸#"Á&Õı—µs†vŸmÜDÁaZ·&%v"’3.´?DÏÃß:` jñ„XØÖïiîå&íŸ‹FÙc•Xœ±| j(ÉQæ?b`$ú÷0xm˜sçwÊ“÷¾L4¡)%€Š¤ô3ÄÚÌt^Û§éıIq÷gjQ=ÛT‡>3ŠBDâài¨‘)½íÜ¼éSFvä¶QÑogŒJ.|ÈQ‘ :5®’#î#™ÁrµMœøéÇ>ÎöHIl
+#include "main.h"
+
+
+/**
+ * print_alphabet - print all alphabet in lowercase
+ */
+
+
+void print_alphabet(void)
+{
+	char letter;
+
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+
+	_putchar('\n');
+}
