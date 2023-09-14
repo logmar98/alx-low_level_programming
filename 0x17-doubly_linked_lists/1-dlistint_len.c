@@ -12,7 +12,6 @@ int n = 0;
 while (h != NULL)
 {
 n++;
-printf("%d\n", h->n);
 h = h->next;
 }
 return (n);
