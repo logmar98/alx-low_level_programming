@@ -11,7 +11,9 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 unsigned int n = 0;
 struct dlistint_s *cur;
 if (head == NULL)
-	return (NULL);
+{
+return (NULL);
+}
 cur = head;
 while (cur->next != NULL)
 {
