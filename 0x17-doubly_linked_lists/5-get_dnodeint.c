@@ -9,6 +9,8 @@
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 unsigned int n = 0;
+if (head == NULL)
+	return (NULL);
 struct dlistint_s *cur;
 cur = head;
 while (cur->next != NULL)
@@ -20,6 +22,5 @@ return (cur);
 cur = cur->next;
 n++;
 }
-return (NULL);
 }
 
